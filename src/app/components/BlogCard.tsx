@@ -19,7 +19,6 @@ export default function BlogCard({
   company,
   category,
   excerpt,
-  image,
 }: BlogCardProps) {
   return (
     <Link href={`/blog/${id}`} className={styles.cardLink}>
