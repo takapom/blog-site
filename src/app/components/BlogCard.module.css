@@ -1,0 +1,41 @@
+.cardLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card {
+    background: linear-gradient(135deg, #1e1f26, #2b2c34);
+    border: 1px solid #3a3b47;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    color: #f2f2f2;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #292a33, #3e3f4b);
+  }
+  
+  .title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .readMore {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: #89c4f4;
+    transition: color 0.2s ease;
+  }
+  
+  .card:hover .readMore {
+    color: #5dade2;
+  }
+  
