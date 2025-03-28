@@ -31,7 +31,7 @@ export default async function Home() {
   return (
     <main className={styles.container}>
       <div className={styles.content}>
-        <h1>インターン・選考状況</h1>
+        <h1>Intern</h1>
         <div className={styles.cardList}>
           {posts.map((post) => (
             <BlogCard 
